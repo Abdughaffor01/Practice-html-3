@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1500px;
+  margin: 0 auto;
+}
+li {
+  display: flex;
+  align-items: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: none;
+}
+header a {
+  padding: 8px 16px;
+}
+header select {
+  background-color: #147e45;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  width: 60px;
+  font-size: 15px;
+}
+.h_row {
+  display: flex;
+  justify-content: space-between;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 20px 0;
+}
+.h_col {
+  width: 50%;
+  display: flex;
+}
+.main1 {
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.main1 ul {
+  display: block;
+}
+.m1_col {
+  width: 45%;
+}
+button {
+  width: 200px;
+  height: 40px;
+  background-color: #147e45;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.btnn {
+  background-color: transparent;
+  border: 3px solid #147e45;
+  color: #147e45;
+}
+.main2 {
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.main3 {
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.main4 {
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.sh_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+  box-shadow: 0px 0px 50px rgb(231, 230, 230);
+}
+.sh_col {
+  width: 40%;
+  letter-spacing: 3px;
+}
+footer {
+  height: 100px;
+}
+footer ul {
+  display: block;
+}
+.f_row {
+  display: flex;
+  justify-content: space-between;
+}
+.f_col {
+  width: 25%;
+}
+footer li {
+  margin: 10px 0;
+}
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  header ul {
+    display: none;
+  }
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .menu {
+    display: block;
+  }
+  .mob {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .menu {
+    display: flex;
+    justify-content: end;
+  }
+  .sr_col {
+    width: 100%;
+  }
+  .m1_col {
+    width: 100%;
+  }
+  section {
+    margin: 200px 0;
+  }
+  .sh_row {
+    padding: 20px 0;
+    position: relative;
+    bottom: 120px;
+  }
+  .main4 {
+    height: 300px;
+    margin: 0;
+    padding: 0;
+  }
+  .sh_col{
+   width: 80%;
+   letter-spacing: 1px;
+  }
+
+}
